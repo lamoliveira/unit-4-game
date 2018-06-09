@@ -1,0 +1,90 @@
+/**
+ * Style for crystal game
+ * Luiz Oliveira
+ **/
+
+* {
+  text-align: left;
+  font-style: 'Arial', 'Helvetica Neue', Helvetica, sans-serif; 
+}
+
+body {  width: 980px;
+}
+footer {
+    text-align: center;
+    padding: 35px;  
+    
+    background:#ebebeb;
+    color: #ffffff;border-top-color: #4aaaa5;
+    background-color: #666666;
+    font-size: 6px;
+    border-top-style:solid; 
+    border-top-width: 6px;
+    margin-top: 10px;
+
+}
+
+.navbar-brand {
+    background-color: #4aaaa5;
+    -webkit-text-fill-color: white;
+}
+h1,h5,h6 {
+    -webkit-text-fill-color: #4aaaa5;
+}
+
+.wrapper {
+    /* Box-model */
+    width: 980px;
+  
+    /* Positioning */
+    margin: 40px auto;
+  }
+  body{width: 980px;}
+  #img1 { float: left;}
+  .img2{margin-right: 10px;}
+
+
+@media screen and (max-width: 980px) {
+  
+  body {  width: 980px;
+        }  
+  .img2 {
+     width: 200px;
+    }
+    }
+
+/* Additional Screen Sizes */
+/* Width at 320px and below */
+@media screen and (max-width: 768px) {
+    
+body {  width: 768px;
+}
+    .img2 {
+      
+      width: 150px;
+      
+    }
+  }
+    /* Width at 640px and below */
+  @media screen and (max-width: 640px) {
+    
+    
+body {  width: 640px;
+}
+   .img2 {
+    
+     width: 100px;
+   }
+   
+  }
+     /* Width at 320px and below */
+  @media screen and (max-width: 320px) {
+    
+body {  width: 320px;
+}
+    .img2 {
+      
+      width: 50px;
+    }
+    
+   } 
